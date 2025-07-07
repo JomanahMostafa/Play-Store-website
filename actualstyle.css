@@ -1,0 +1,128 @@
+.header {
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.header-links a {
+    color: black;
+    padding: 0 15px;
+    text-decoration: none;
+    border-radius: 19px
+}
+
+.header-links a:hover {
+    background-color: #d8d8d8;
+}
+
+.btn {
+    background-color: #f4d03f;
+    color: black;
+    border: none;
+    border-radius: 55px;
+    padding: 5px 15px;
+}
+
+.btn:hover {
+    color: #585453;
+}
+
+.landing-page {
+    background-color: forestgreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    color: black;
+}
+
+.search input {
+    border-radius: 50px;
+    border: none;
+    padding: 5px 10px;
+    outline: none;
+    height: 25px;
+}
+
+.search button {
+    position: absolute;
+    left: 200px;
+    height: 35px;
+    width: 100px;
+}
+
+.img-cont {
+    border-radius: 40px;
+    width: 450px;
+}
+
+.down {
+    border-radius: 0 0 50px 50px;
+}
+
+.trending-cont {
+    padding: 25px 50px;
+}
+
+.trending-cont span {
+    text-transform: uppercase;
+    color: darkred;
+    font-size: 18px;
+}
+
+.trendingheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trendingheader h1 {
+    margin-top: 0;
+}
+
+.btn-install {
+    background-color: #f4d03f;
+    color: black;
+    border: none;
+    border-radius: 55px;
+    padding: 10px 25px;
+}
+
+.btn-install:hover {
+    color: #585453;
+}
+
+.game-name {
+    color: #750000;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 25px;
+}
+
+.card-info img {
+    width: 35px;
+}
+
+.card {
+    width: 301px;
+    background-color: #e1e1e1;
+    border-radius: 20px;
+}
+
+.card .thumb {
+    border-radius: 20px 20px 0 0;
+}
+
+.trending-cards {
+    display: flex;
+    gap: 50px;
+}
